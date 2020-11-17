@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1268,7 +1271,7 @@ input, select, textarea {
 			margin-top: 3.5rem;
 		}
 
-			#header > *:before {
+			/* #header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
@@ -1277,7 +1280,7 @@ input, select, textarea {
 				width: 1px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
-			}
+			} */
 
 		#header > :first-child {
 			margin-top: 0;
@@ -1287,13 +1290,13 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
+		/* #header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
-		}
+		} */
 
 			#header .logo .icon:before {
 				font-size: 2rem;
@@ -1302,8 +1305,8 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-top-width: 3px;
+			border-bottom-width: 3px;
 			max-width: 100%;
 		}
 
@@ -1328,7 +1331,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
@@ -1340,13 +1343,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 3px #ffffff;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 3px #ffffff;
 			}
 
 				#header nav ul li:first-child {
@@ -1361,7 +1364,7 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1.0rem;
 					border-bottom: 0;
 				}
 
